@@ -32,8 +32,8 @@ constraint fk_score_student_on_studentId foreign key(student_id) references stud
 constraint fk_score_subject_on_subjectId foreign key(subject_id) references subject(id)
 );
 
-insert into score(student_id,subject_id,score)  values('001','1001',80);
-insert into score(student_id,subject_id,score)  values('002','1002',60);
-insert into score(student_id,subject_id,score)  values('001','1001',70);
-insert into score(student_id,subject_id,score)  values('002','1002',60.5);
+insert into score values(1,'001','1001',80);
+insert into score values(2,'002','1002',60);
+insert into score values(3,'001','1001',70);
+insert into score values(4,'002','1002',60.5);
 
